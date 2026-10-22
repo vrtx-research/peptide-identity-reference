@@ -36,7 +36,7 @@ Thymosin beta-4 (Tβ4, INN timbetasin) is a 43-residue chain with an acetylated 
 
 "TB-500" is a market name, not a systematic one. In PubChem it resolves to CID 62707662, Ac-LKKTETQ-OH: the seven-residue N-acetylated stretch that matches residues 17-23 of the Tβ4 chain, `C38H68N10O14`, about 889 g/mol, CAS 885340-08-9. The same seven residues without the acetyl group are a separate record (CID 10169788, `C36H66N10O13`, 42.01 Da lighter).
 
-Some supplier listings pair the name TB-500 with the full Tβ4 identity (CAS 77591-33-4, about 4963 g/mol). The two candidates differ by more than 4000 Da, so a mass measurement settles which one a material contains. This dataset keeps them as two rows and never merges the names.
+Many supplier listings use the name TB-500 for the full Tβ4 molecule (CAS 77591-33-4, about 4963 g/mol); Vortex Research's own TB-500 product is the full-length Tβ4 material. The two candidates differ by more than 4000 Da, so a mass measurement settles which one a material contains. This dataset keeps them as two rows and never merges the names.
 
 ## Files
 
