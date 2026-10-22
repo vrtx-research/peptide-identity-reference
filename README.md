@@ -1,5 +1,7 @@
 # Vortex Research peptide identity reference
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23578942.svg)](https://doi.org/10.5281/zenodo.23578942)
+
 Identity data for the compounds that [Vortex Research](https://vortexresearch.net/) publishes lot reports for: one- and three-letter sequence, terminal modifications, molecular formula, average molecular weight, monoisotopic mass, residue count, PubChem CID and CAS number.
 
 Two rules shape every row. First, each PubChem value is stored with the exact PUG REST query URL that returned it. Second, each peptide formula and mass is recomputed from the sequence by [`scripts/mass.js`](scripts/mass.js) and compared with PubChem. A formula that differs, or a mass that differs by more than 0.05 Da, is either explained in the row's `notes` or flagged there. Nothing is silently chosen.
@@ -120,8 +122,8 @@ One row per compound that Vortex Research publishes lot reports for, plus thymos
 ## Cite
 
 ```
-Vortex Research (2026). Peptide identity reference [Data set].
-https://vrtx-research.github.io/peptide-identity-reference/
+Vortex Research (2026). Vortex Research peptide identity reference [Data set].
+Zenodo. https://doi.org/10.5281/zenodo.23578942
 ```
 
 ## License

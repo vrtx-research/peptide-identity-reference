@@ -32,7 +32,8 @@ const jsonld = {
   name: meta.name,
   description: 'Identity reference data for the compounds Vortex Research publishes lot reports for: one- and three-letter sequence, terminal modifications, molecular formula, average molecular weight, monoisotopic mass, residue count, PubChem CID and CAS number, with the PubChem query URL behind every value and an independent recomputation of each peptide formula and mass from its sequence.',
   url: SITE,
-  sameAs: REPO,
+  sameAs: [REPO, 'https://doi.org/10.5281/zenodo.23578942'],
+  identifier: 'https://doi.org/10.5281/zenodo.23578942',
   license: 'https://creativecommons.org/licenses/by/4.0/',
   isAccessibleForFree: true,
   creator: { '@type': 'Organization', name: 'Vortex Research', url: 'https://vortexresearch.net/' },
@@ -138,7 +139,8 @@ ${rowsHtml}
 ${notesHtml}
 
 <h2>Cite</h2>
-<p><code>Vortex Research (2026). Peptide identity reference [Data set]. ${SITE}</code></p>
+<p><code>Vortex Research (2026). Vortex Research peptide identity reference [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23578942</code></p>
+<p>Archived on <a href="https://doi.org/10.5281/zenodo.23578942">Zenodo (DOI 10.5281/zenodo.23578942)</a>; each release has its own version DOI.</p>
 
 <p class="note">Research use only. Vortex Research materials are sold for in-vitro laboratory research by qualified researchers. Not for human or veterinary use. Not a drug, dietary supplement or cosmetic. Statements have not been evaluated by the FDA. This page holds identity data only: what each molecule is, not what it does.</p>
 </main>
