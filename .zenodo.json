@@ -1,0 +1,13 @@
+{
+  "title": "Vortex Research peptide identity reference",
+  "upload_type": "dataset",
+  "description": "<p>Identity data for the peptides Vortex Research publishes lot reports for: one-letter and three-letter sequence, modifications, molecular formula, average molecular weight, monoisotopic mass, PubChem CID and CAS number. Formulas and masses are recomputed from sequence by a dependency-free script and checked against PubChem; disagreements between sources are recorded per row.</p><p>Research use only. Not for human or veterinary use.</p>",
+  "creators": [{"name": "Vortex Research"}],
+  "license": "cc-by-4.0",
+  "keywords": ["peptide", "monoisotopic mass", "molecular formula", "PubChem", "CAS number", "identity", "mass spectrometry"],
+  "related_identifiers": [
+    {"identifier": "https://vrtx-research.github.io/peptide-identity-reference/", "relation": "isDocumentedBy", "resource_type": "other"},
+    {"identifier": "10.5281/zenodo.23578844", "relation": "isSupplementTo", "resource_type": "dataset"}
+  ],
+  "access_right": "open"
+}
