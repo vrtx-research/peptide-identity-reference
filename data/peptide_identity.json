@@ -1,0 +1,1038 @@
+{
+  "meta": {
+    "name": "Vortex Research peptide identity reference",
+    "description": "Sequence, formula, mass, PubChem CID and CAS identity data for compounds Vortex Research publishes lot reports for.",
+    "url": "https://vrtx-research.github.io/peptide-identity-reference/",
+    "generated": "2026-10-22",
+    "license": "CC BY 4.0 (data), MIT (scripts)",
+    "mass_conventions": {
+      "average_mw": "PubChem MolecularWeight as reported (PubChem rounds it). computed.average_mw uses IUPAC 2005 standard atomic weights.",
+      "monoisotopic_mass": "PubChem MonoisotopicMass. computed.monoisotopic_mass uses NIST most-abundant-isotope masses. Charged records: neutral-atom sum, no electron-mass correction (same as PubChem).",
+      "tolerance_da": 0.05
+    },
+    "research_use": "Identity reference data for laboratory research materials. Not for human or veterinary use."
+  },
+  "compounds": [
+    {
+      "id": "bpc-157",
+      "name": "BPC-157",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "BPC 157",
+        "Bpc157",
+        "Bepecin",
+        "PL-14736"
+      ],
+      "sequence_one_letter": "GEPPPGKPADDAGLV",
+      "sequence_three_letter": "H-Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val-OH",
+      "residue_count": 15,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C62H98N16O22",
+      "average_mw": 1419.5,
+      "monoisotopic_mass": 1418.70415882,
+      "charge": 0,
+      "pubchem_cid": 9941957,
+      "pubchem_title": "Bpc-157",
+      "cas": "137525-51-0",
+      "computed": {
+        "molecular_formula": "C62H98N16O22",
+        "average_mw": 1419.54,
+        "monoisotopic_mass": 1418.7042,
+        "delta_average_mw": 0.0355,
+        "delta_monoisotopic_mass": 4e-8,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/blog/what-is-bpc-157/",
+        "https://vortexresearch.net/blog/bpc-157-and-tb-500/",
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "PubChem synonyms for this record include trifluoroacetate-salt names. The formula and masses are for the free peptide without counter-ions."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "BPC-157",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/BPC-157/cids/JSON",
+            "cids": [
+              9941957
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9941957/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9941957/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/9941957/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "137525-51-0",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/137525-51-0/cids/JSON",
+          "cids": [
+            9941957
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9941957/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "tb-500",
+      "name": "TB-500",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "TB500",
+        "TB 500",
+        "N-Acetyl-L-leucyl-L-lysyl-L-lysyl-L-threonyl-L-alpha-glutamyl-L-threonyl-L-glutamine"
+      ],
+      "sequence_one_letter": "LKKTETQ",
+      "sequence_three_letter": "Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH",
+      "residue_count": 7,
+      "modifications": {
+        "n_terminus": "N-acetyl (Ac-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C38H68N10O14",
+      "average_mw": 889,
+      "monoisotopic_mass": 888.49164688,
+      "charge": 0,
+      "pubchem_cid": 62707662,
+      "pubchem_title": "Unii-qhk6Z47gtg",
+      "cas": "885340-08-9",
+      "computed": {
+        "molecular_formula": "C38H68N10O14",
+        "average_mw": 889.01,
+        "monoisotopic_mass": 888.4916,
+        "delta_average_mw": 0.0051,
+        "delta_monoisotopic_mass": 2.99e-8,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [
+        {
+          "label": "LKKTETQ without the N-acetyl group (PubChem title: Fequesetide)",
+          "pubchem_cid": 10169788,
+          "sequence_three_letter": "H-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH",
+          "molecular_formula": "C36H66N10O13",
+          "average_mw": 847,
+          "monoisotopic_mass": 846.4810822,
+          "computed_formula": "C36H66N10O13",
+          "computed_monoisotopic_mass": 846.4811,
+          "pubchem_match": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10169788/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        }
+      ],
+      "vortex_links": [
+        "https://vortexresearch.net/blog/tb-500-vs-thymosin-beta-4/",
+        "https://vortexresearch.net/blog/bpc-157-and-tb-500/",
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Naming: \"TB-500\" is a market name, not a systematic one. PubChem CID 62707662 (synonyms TB-500 and TB500; CAS 885340-08-9) is Ac-LKKTETQ-OH, the N-acetylated heptapeptide matching residues 17-23 of the mature 43-residue thymosin beta-4 chain (numbering as in UniProt P62328 after removal of the initiator methionine).",
+        "Some supplier listings attach the full thymosin beta-4 identity (CAS 77591-33-4, C212H350N56O78S, about 4963 g/mol) to the name TB-500. That is a different molecule; it has its own row (thymosin-beta-4).",
+        "The same heptapeptide without the N-acetyl group is a separate PubChem record, CID 10169788 (C36H66N10O13), 42.01 Da lighter. See variants."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "TB-500",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/TB-500/cids/JSON",
+            "cids": [
+              62707662
+            ]
+          },
+          {
+            "name": "TB500",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/TB500/cids/JSON",
+            "cids": [
+              62707662
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/62707662/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/62707662/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/62707662/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "885340-08-9",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/885340-08-9/cids/JSON",
+          "cids": [
+            62707662
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "Ac-Leu-Lys-Lys-Thr-Glu-Thr-Gln-OH",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/62707662/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "thymosin-beta-4",
+      "name": "Thymosin beta-4 (Tβ4)",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "Timbetasin",
+        "Thymosin beta4",
+        "Tbeta4",
+        "Fx Peptide"
+      ],
+      "sequence_one_letter": "SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES",
+      "sequence_three_letter": "Ac-Ser-Asp-Lys-Pro-Asp-Met-Ala-Glu-Ile-Glu-Lys-Phe-Asp-Lys-Ser-Lys-Leu-Lys-Lys-Thr-Glu-Thr-Gln-Glu-Lys-Asn-Pro-Leu-Pro-Ser-Lys-Glu-Thr-Ile-Glu-Gln-Glu-Lys-Gln-Ala-Gly-Glu-Ser-OH",
+      "residue_count": 43,
+      "modifications": {
+        "n_terminus": "N-acetyl (Ac-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C212H350N56O78S",
+      "average_mw": 4963,
+      "monoisotopic_mass": 4960.4863169,
+      "charge": 0,
+      "pubchem_cid": 16132341,
+      "pubchem_title": "Timbetasin",
+      "cas": "77591-33-4",
+      "computed": {
+        "molecular_formula": "C212H350N56O78S",
+        "average_mw": 4963.44,
+        "monoisotopic_mass": 4960.4863,
+        "delta_average_mw": 0.4408,
+        "delta_monoisotopic_mass": 1.29e-7,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/blog/tb-500-vs-thymosin-beta-4/",
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Sequence source: UniProt P62328 (TYB4_HUMAN). The translated precursor starts with an initiator methionine that is removed; the mature chain is 43 residues (precursor positions 2-44) with an N-acetylated Ser1. Residue numbers in this dataset follow the mature chain.",
+        "UniProt also lists natural acetyl-lysine and phosphorylation sites. The formula and masses here are for the unmodified chain apart from the N-terminal acetyl group, which is what PubChem CID 16132341 records.",
+        "PubChem has two records with this formula: CID 16132341 (title Timbetasin, the INN; stereocentres defined; CAS 77591-33-4) and CID 45382195 (title Thymosin Beta 4, stereocentres not defined, no CAS listed). PubChem name lookup \"Thymosin beta-4\" returns CID 45382195. CID 16132341 is used because the CAS number resolves to it.",
+        "Not the same molecule as TB-500 (row tb-500). Ac-LKKTETQ is residues 17-23 of this chain.",
+        "Resolved: Main record average MW. PubChem reports 4963 (rounded to 0 decimal places); computed 4963.44. The 0.44 Da difference is PubChem's display rounding: the formulas are identical and the monoisotopic masses agree to 1.3e-7 Da."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "Thymosin beta-4",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Thymosin%20beta-4/cids/JSON",
+            "cids": [
+              45382195
+            ]
+          },
+          {
+            "name": "Thymosin beta4",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Thymosin%20beta4/cids/JSON",
+            "cids": [
+              16132341
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16132341/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16132341/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/16132341/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "77591-33-4",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/77591-33-4/cids/JSON",
+          "cids": [
+            16132341
+          ]
+        },
+        "sequence": [
+          {
+            "source": "UniProt P62328",
+            "value": "SDKPDMAEIEKFDKSKLKKTETQEKNPLPSKETIEQEKQAGES",
+            "url": "https://rest.uniprot.org/uniprotkb/P62328.fasta"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "ghk",
+      "name": "GHK (free tripeptide)",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no copper, no counter-ion",
+      "synonyms": [
+        "Glycyl-L-histidyl-L-lysine",
+        "Gly-His-Lys",
+        "Prezatide",
+        "Tripeptide-1"
+      ],
+      "sequence_one_letter": "GHK",
+      "sequence_three_letter": "H-Gly-His-Lys-OH",
+      "residue_count": 3,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C14H24N6O4",
+      "average_mw": 340.38,
+      "monoisotopic_mass": 340.18590327,
+      "charge": 0,
+      "pubchem_cid": 73587,
+      "pubchem_title": "glycyl-L-histidyl-L-lysine",
+      "cas": "49557-75-7",
+      "computed": {
+        "molecular_formula": "C14H24N6O4",
+        "average_mw": 340.38,
+        "monoisotopic_mass": 340.1859,
+        "delta_average_mw": -0.0018,
+        "delta_monoisotopic_mass": 8.38e-9,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/blog/ghk-cu-peptide/",
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "This is the copper-free tripeptide. PubChem's synonym list for this record also carries the names \"GHK-Cu\" and \"Copper Peptide\", so a name lookup for \"GHK-Cu\" returns this copper-free record among its results. Match the CID to the material: copper complex = row ghk-cu.",
+        "The CAS-format string 1227510-36-2 appears in this record's synonym list but not in PubChem's CAS section; 49557-75-7 is used.",
+        "PubChem name lookup \"GHK\" returns 2 CIDs (73587, 342538); 73587 is the one used."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "GHK",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/GHK/cids/JSON",
+            "cids": [
+              73587,
+              342538
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/73587/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/73587/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/73587/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "49557-75-7",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/49557-75-7/cids/JSON",
+          "cids": [
+            73587
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "Gly-his-lys",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/73587/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "ghk-cu",
+      "name": "GHK-Cu (copper complex)",
+      "compound_type": "peptide (metal complex)",
+      "is_peptide": true,
+      "form": "1:1 Cu(II) complex, drawn by PubChem as a cation (charge +1)",
+      "synonyms": [
+        "Prezatide copper",
+        "Copper tripeptide-1",
+        "GHK-Cu",
+        "GHK copper"
+      ],
+      "sequence_one_letter": "GHK",
+      "sequence_three_letter": "H-Gly-His-Lys-OH",
+      "residue_count": 3,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": "Cu(II) 1:1 complex, one H removed, charge +1"
+      },
+      "molecular_formula": "C14H23CuN6O4+",
+      "average_mw": 402.92,
+      "monoisotopic_mass": 402.107675,
+      "charge": 1,
+      "pubchem_cid": 71587328,
+      "pubchem_title": "Prezatide copper",
+      "cas": "89030-95-5",
+      "computed": {
+        "molecular_formula": "C14H23CuN6O4+",
+        "average_mw": 402.92,
+        "monoisotopic_mass": 402.1077,
+        "delta_average_mw": -0.0038,
+        "delta_monoisotopic_mass": 9.66e-7,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [
+        {
+          "cid": 165429100,
+          "relation": "1:1 Cu complex drawn as a neutral species",
+          "molecular_formula": "C14H22CuN6O4",
+          "average_mw": 401.91,
+          "monoisotopic_mass": 401.09985,
+          "charge": 0,
+          "cas": [],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/165429100/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        },
+        {
+          "cid": 139035031,
+          "relation": "1:1 Cu complex drawn as an anion",
+          "molecular_formula": "C14H21CuN6O4-",
+          "average_mw": 400.9,
+          "monoisotopic_mass": 400.092025,
+          "charge": -1,
+          "cas": [],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/139035031/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        },
+        {
+          "cid": 9831891,
+          "relation": "2:1 GHK:Cu complex (title Bisprezatide copper)",
+          "molecular_formula": "C28H46CuN12O8",
+          "average_mw": 742.3,
+          "monoisotopic_mass": 741.285754,
+          "charge": 0,
+          "cas": [
+            "130120-56-8",
+            "300801-03-0"
+          ],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9831891/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        },
+        {
+          "cid": 133697840,
+          "relation": "two GHK molecules plus copper as a mixture record (title GHK-Cu)",
+          "molecular_formula": "C28H48CuN12O8",
+          "average_mw": 744.3,
+          "monoisotopic_mass": 743.301404,
+          "charge": 0,
+          "cas": [
+            "300801-03-0"
+          ],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/133697840/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        }
+      ],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/blog/ghk-cu-peptide/",
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "CAS 89030-95-5 resolves to PubChem CID 71587328 (title Prezatide copper), which draws the 1:1 complex as a cation: GHK minus one proton plus Cu, overall charge +1, C14H23CuN6O4+.",
+        "PubChem holds several other GHK-copper records that differ in copper ratio and protonation (see related_pubchem_records), so \"GHK-Cu\" has no single formula or molecular weight. The value that applies to a solid material depends on the copper ratio, protonation state and counter-ions, which the lot report or supplier should state.",
+        "The copper-free tripeptide is row ghk (CID 73587, CAS 49557-75-7).",
+        "FLAG (PubChem data, not this row): CID 71587328 is drawn as the singly deprotonated cation (C14H23CuN6O4+), while several of its synonyms, e.g. \"Copper, (N2-(N-glycyl-L-histidyl)-L-lysinato(2-))-\", name the doubly deprotonated neutral complex (C14H22CuN6O4, the formula of CID 165429100). The two differ by one hydrogen (1.008 Da).",
+        "PubChem name lookup \"GHK-Cu\" returns 6 CIDs (139035031, 9831891, 73587, 71587328, 133697840, 165429100); 71587328 is the one used."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "GHK-Cu",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/GHK-Cu/cids/JSON",
+            "cids": [
+              139035031,
+              9831891,
+              73587,
+              71587328,
+              133697840,
+              165429100
+            ]
+          },
+          {
+            "name": "Prezatide copper",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Prezatide%20copper/cids/JSON",
+            "cids": [
+              71587328
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/71587328/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/71587328/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/71587328/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "89030-95-5",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/89030-95-5/cids/JSON",
+          "cids": [
+            71587328
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym (systematic name)",
+            "value": "Copper, (N2-(N-glycyl-L-histidyl)-L-lysinato(2-))-",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/71587328/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "kpv",
+      "name": "KPV",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "Lys-Pro-Val",
+        "L-Lysyl-L-prolyl-L-valine",
+        "alpha-MSH (11-13) (free acid)"
+      ],
+      "sequence_one_letter": "KPV",
+      "sequence_three_letter": "H-Lys-Pro-Val-OH",
+      "residue_count": 3,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C16H30N4O4",
+      "average_mw": 342.43,
+      "monoisotopic_mass": 342.22670545,
+      "charge": 0,
+      "pubchem_cid": 125672,
+      "pubchem_title": "Msh (11-13)",
+      "cas": "67727-97-3",
+      "computed": {
+        "molecular_formula": "C16H30N4O4",
+        "average_mw": 342.43,
+        "monoisotopic_mass": 342.2267,
+        "delta_average_mw": 0.0038,
+        "delta_monoisotopic_mass": 1.29e-8,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "PubChem name lookup \"KPV\" returns CID 13294447, which is an unrelated compound (2-oxo-5-phenylpentanoic acid, C11H12O3). The tripeptide Lys-Pro-Val is CID 125672, which CAS 67727-97-3 resolves to. Do not resolve this compound by the bare name \"KPV\".",
+        "KPV matches residues 11-13 of alpha-MSH. In alpha-MSH itself the C-terminal valine is amidated (UniProt P01189, \"Valine amide\"); the PubChem KPV record and its synonyms (H-Lys-Pro-Val-OH, \"alpha-MSH (11-13) (free acid)\") describe the free acid, which is what this row gives."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "KPV",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/KPV/cids/JSON",
+            "cids": [
+              13294447
+            ]
+          },
+          {
+            "name": "Lys-Pro-Val",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Lys-Pro-Val/cids/JSON",
+            "cids": [
+              125672
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/125672/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/125672/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/125672/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "67727-97-3",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/67727-97-3/cids/JSON",
+          "cids": [
+            125672
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "Lys-pro-val",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/125672/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "mots-c",
+      "name": "MOTS-c",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "Mots-c",
+        "H-MRWQEMGYIFYPRKLR-OH"
+      ],
+      "sequence_one_letter": "MRWQEMGYIFYPRKLR",
+      "sequence_three_letter": "H-Met-Arg-Trp-Gln-Glu-Met-Gly-Tyr-Ile-Phe-Tyr-Pro-Arg-Lys-Leu-Arg-OH",
+      "residue_count": 16,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C101H152N28O22S2",
+      "average_mw": 2174.6,
+      "monoisotopic_mass": 2173.1077409,
+      "charge": 0,
+      "pubchem_cid": 146675088,
+      "pubchem_title": "Mots-c",
+      "cas": "1627580-64-6",
+      "computed": {
+        "molecular_formula": "C101H152N28O22S2",
+        "average_mw": 2174.59,
+        "monoisotopic_mass": 2173.1077,
+        "delta_average_mw": -0.008,
+        "delta_monoisotopic_mass": 1.02e-7,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [
+        {
+          "cid": 164946842,
+          "relation": "salt record titled as the tris-acetic-acid form (peptide + 3 C2H4O2)",
+          "molecular_formula": "C107H164N28O28S2",
+          "average_mw": 2354.8,
+          "monoisotopic_mass": 2353.171129,
+          "charge": 0,
+          "cas": [
+            "1627580-64-6"
+          ],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/164946842/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+          "formula_check": "matches main record + C6H12O6"
+        },
+        {
+          "cid": 172641109,
+          "relation": "salt record titled \"Mots-C acetate\"; its formula is the peptide + 3 CF3COOH (trifluoroacetate), not acetate",
+          "molecular_formula": "C107H155F9N28O28S2",
+          "average_mw": 2516.7,
+          "monoisotopic_mass": 2515.0863322,
+          "charge": 0,
+          "cas": [
+            "1627580-64-6"
+          ],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/172641109/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+          "formula_check": "matches main record + C6H3F9O6"
+        }
+      ],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Length: UniProt A0A0C5B5G6 (gene MT-RNR1) and PubChem CID 146675088 both give 16 residues, MRWQEMGYIFYPRKLR. No source reviewed for this dataset gives a different length.",
+        "CAS 1627580-64-6 resolves to three PubChem records: the free peptide (CID 146675088, used here) and two salt records. FLAG (PubChem data, not this row): CID 172641109 is titled \"Mots-C acetate\", but its formula (C107H155F9N28O28S2) equals the free peptide plus three trifluoroacetic acid units, so the title and formula of that record disagree. Not used."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "MOTS-c",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/MOTS-c/cids/JSON",
+            "cids": [
+              146675088
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/146675088/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/146675088/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/146675088/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "1627580-64-6",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/1627580-64-6/cids/JSON",
+          "cids": [
+            146675088,
+            164946842,
+            172641109
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "H-MRWQEMGYIFYPRKLR-OH",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/146675088/synonyms/JSON"
+          },
+          {
+            "source": "UniProt A0A0C5B5G6",
+            "value": "MRWQEMGYIFYPRKLR",
+            "url": "https://rest.uniprot.org/uniprotkb/A0A0C5B5G6.fasta"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "selank",
+      "name": "Selank",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "TP-7",
+        "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+        "Selanc"
+      ],
+      "sequence_one_letter": "TKPRPGP",
+      "sequence_three_letter": "H-Thr-Lys-Pro-Arg-Pro-Gly-Pro-OH",
+      "residue_count": 7,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C33H57N11O9",
+      "average_mw": 751.9,
+      "monoisotopic_mass": 751.43407244,
+      "charge": 0,
+      "pubchem_cid": 11765600,
+      "pubchem_title": "Selank",
+      "cas": "129954-34-3",
+      "computed": {
+        "molecular_formula": "C33H57N11O9",
+        "average_mw": 751.87,
+        "monoisotopic_mass": 751.4341,
+        "delta_average_mw": -0.026,
+        "delta_monoisotopic_mass": 2.2e-8,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [
+        {
+          "label": "N-acetyl Selank (Ac-TKPRPGP-OH)",
+          "pubchem_cid": 133082488,
+          "sequence_three_letter": "Ac-Thr-Lys-Pro-Arg-Pro-Gly-Pro-OH",
+          "molecular_formula": "C35H59N11O10",
+          "average_mw": 793.9,
+          "monoisotopic_mass": 793.44463712,
+          "computed_formula": "C35H59N11O10",
+          "computed_monoisotopic_mass": 793.4446,
+          "pubchem_match": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/133082488/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        }
+      ],
+      "vortex_links": [
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Selank is the tuftsin sequence TKPR (PubChem CID 156080, H-Thr-Lys-Pro-Arg-OH) extended by Pro-Gly-Pro.",
+        "Variant names exist. \"N-Acetyl Selank\" is PubChem CID 133082488 (Ac-TKPRPGP-OH, C35H59N11O10, +42.01 Da; C-terminal free acid per its IUPAC name). The name \"N-Acetyl Selank Amidate\" has no PubChem record (lookup returns not found), so no formula is given for it here. A material sold under a variant name is a different molecule from the Selank in this row."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "Selank",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Selank/cids/JSON",
+            "cids": [
+              11765600
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11765600/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11765600/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11765600/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "129954-34-3",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/129954-34-3/cids/JSON",
+          "cids": [
+            11765600
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11765600/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "semax",
+      "name": "Semax",
+      "compound_type": "peptide",
+      "is_peptide": true,
+      "form": "free peptide, no counter-ion",
+      "synonyms": [
+        "ACTH (4-7), Pro-Gly-Pro-",
+        "Met-Glu-His-Phe-Pro-Gly-Pro",
+        "MEHFPGP"
+      ],
+      "sequence_one_letter": "MEHFPGP",
+      "sequence_three_letter": "H-Met-Glu-His-Phe-Pro-Gly-Pro-OH",
+      "residue_count": 7,
+      "modifications": {
+        "n_terminus": "free amine (H-)",
+        "c_terminus": "free acid (-OH)",
+        "other": null
+      },
+      "molecular_formula": "C37H51N9O10S",
+      "average_mw": 813.9,
+      "monoisotopic_mass": 813.34796003,
+      "charge": 0,
+      "pubchem_cid": 9811102,
+      "pubchem_title": "ACTH (4-7), Pro-Gly-Pro-",
+      "cas": "80714-61-0",
+      "computed": {
+        "molecular_formula": "C37H51N9O10S",
+        "average_mw": 813.92,
+        "monoisotopic_mass": 813.348,
+        "delta_average_mw": 0.0201,
+        "delta_monoisotopic_mass": 2.37e-8,
+        "basis": "sequence + modifications (scripts/mass.js)"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [
+        {
+          "label": "N-acetyl Semax amidate (Ac-MEHFPGP-NH2)",
+          "pubchem_cid": 172638603,
+          "sequence_three_letter": "Ac-Met-Glu-His-Phe-Pro-Gly-Pro-NH2",
+          "molecular_formula": "C39H54N10O10S",
+          "average_mw": 855,
+          "monoisotopic_mass": 854.37450913,
+          "computed_formula": "C39H54N10O10S",
+          "computed_monoisotopic_mass": 854.3745,
+          "pubchem_match": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/172638603/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+        }
+      ],
+      "vortex_links": [
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Semax is ACTH residues 4-7 (MEHF) extended by Pro-Gly-Pro, as PubChem's synonym \"ACTH (4-7), Pro-Gly-Pro-\" states.",
+        "Variant names exist. \"N-Acetyl Semax Amidate\" is PubChem CID 172638603 (Ac-MEHFPGP-NH2, C39H54N10O10S, 854.37 Da monoisotopic). The shorter name \"N-Acetyl Semax\" resolves to that same amidated record in PubChem, so the two names are not distinguished there. A material sold under a variant name is a different molecule from the Semax in this row."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "Semax",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Semax/cids/JSON",
+            "cids": [
+              9811102
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9811102/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9811102/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/9811102/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "80714-61-0",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/80714-61-0/cids/JSON",
+          "cids": [
+            9811102
+          ]
+        },
+        "sequence": [
+          {
+            "source": "PubChem synonym",
+            "value": "MEHFPGP",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9811102/synonyms/JSON"
+          }
+        ],
+        "sequence_note": "Modifications follow the same sources; the formula check below confirms them against PubChem."
+      }
+    },
+    {
+      "id": "nad",
+      "name": "NAD+",
+      "compound_type": "small molecule (non-peptide)",
+      "is_peptide": false,
+      "form": "neutral inner-salt form (PubChem title Nadide)",
+      "synonyms": [
+        "Nadide",
+        "beta-NAD",
+        "nicotinamide adenine dinucleotide",
+        "diphosphopyridine nucleotide"
+      ],
+      "sequence_one_letter": null,
+      "sequence_three_letter": null,
+      "residue_count": null,
+      "modifications": null,
+      "molecular_formula": "C21H27N7O14P2",
+      "average_mw": 663.4,
+      "monoisotopic_mass": 663.10912256,
+      "charge": 0,
+      "pubchem_cid": 5892,
+      "pubchem_title": "Nadide",
+      "cas": "53-84-9",
+      "computed": {
+        "molecular_formula": "C21H27N7O14P2",
+        "average_mw": 663.43,
+        "monoisotopic_mass": 663.1091,
+        "delta_average_mw": 0.0251,
+        "delta_monoisotopic_mass": 1.2e-8,
+        "basis": "PubChem formula (scripts/mass.js); formula checked by fragment sum"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Not a peptide: no sequence or residue count. mass.js computes masses from the formula; the formula itself is checked by an independent fragment sum (ADP-ribose, CID 33576, plus nicotinamide, CID 936, minus water).",
+        "PubChem name lookup \"NAD+\" returns four CIDs: 5892 (Nadide, C21H27N7O14P2, CAS 53-84-9), 5893 (protonated cation, C21H28N7O14P2+), 15938971 (anion, C21H26N7O14P2-) and 10897651 (a second record with the same formula as 5892). CID 5892 is used because CAS 53-84-9 resolves to it.",
+        "PubChem's CAS section also lists 64417-72-7 for this record (1 source entry, against 12 for 53-84-9); 53-84-9 is used."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "NAD+",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/NAD%2B/cids/JSON",
+            "cids": [
+              5892,
+              5893,
+              15938971,
+              10897651
+            ]
+          },
+          {
+            "name": "Nicotinamide adenine dinucleotide",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/Nicotinamide%20adenine%20dinucleotide/cids/JSON",
+            "cids": [
+              5892
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5892/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5892/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5892/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "53-84-9",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/53-84-9/cids/JSON",
+          "cids": [
+            5892
+          ]
+        },
+        "formula_derivation": {
+          "method": "ADP-ribose + nicotinamide - H2O",
+          "parts": [
+            {
+              "cid": 33576,
+              "title": "ADP-D-ribose",
+              "formula": "C15H23N5O14P2",
+              "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/33576/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+            },
+            {
+              "cid": 936,
+              "title": "Nicotinamide",
+              "formula": "C6H6N2O",
+              "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/936/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+            }
+          ],
+          "result": "C21H27N7O14P2"
+        }
+      }
+    },
+    {
+      "id": "5-amino-1mq",
+      "name": "5-Amino-1MQ",
+      "compound_type": "small molecule (non-peptide)",
+      "is_peptide": false,
+      "form": "quinolinium cation (charge +1), no counter-ion",
+      "synonyms": [
+        "5-amino-1-methylquinolinium",
+        "5-Amino-1-methylquinolin-1-ium"
+      ],
+      "sequence_one_letter": null,
+      "sequence_three_letter": null,
+      "residue_count": null,
+      "modifications": null,
+      "molecular_formula": "C10H11N2+",
+      "average_mw": 159.21,
+      "monoisotopic_mass": 159.092223359,
+      "charge": 1,
+      "pubchem_cid": 950107,
+      "pubchem_title": "5-Amino-1-methylquinolinium",
+      "cas": "685079-15-6",
+      "computed": {
+        "molecular_formula": "C10H11N2+",
+        "average_mw": 159.21,
+        "monoisotopic_mass": 159.0922,
+        "delta_average_mw": -0.0023,
+        "delta_monoisotopic_mass": 4.39e-9,
+        "basis": "PubChem formula (scripts/mass.js); formula checked by fragment sum"
+      },
+      "pubchem_match": true,
+      "related_pubchem_records": [
+        {
+          "cid": 66522933,
+          "relation": "iodide salt (cation + I-), CAS 42464-96-0",
+          "molecular_formula": "C10H11IN2",
+          "average_mw": 286.11,
+          "monoisotopic_mass": 285.9967,
+          "charge": 0,
+          "cas": [
+            "42464-96-0"
+          ],
+          "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/66522933/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+          "formula_check": "matches main record + I"
+        }
+      ],
+      "variants": [],
+      "vortex_links": [
+        "https://vortexresearch.net/coa/"
+      ],
+      "notes": [
+        "Not a peptide: no sequence or residue count. Formula checked by an independent fragment sum (5-aminoquinoline, CID 11911, plus a methyl group on the ring nitrogen).",
+        "PubChem name lookup \"5-Amino-1MQ\" returns no record. The cation is CID 950107 (CAS 685079-15-6, C10H11N2+, 159.21). The iodide salt is CID 66522933 (CAS 42464-96-0, C10H11IN2, 286.11). Which CAS number and molecular weight apply to a material depends on its counter-ion.",
+        "FLAG (PubChem data, not this row): the iodide record's synonym list also contains \"5-Amino-1-methylquinolinium chloride\", which does not match that record's formula (iodide). Not used."
+      ],
+      "sources": {
+        "pubchem_name_lookups": [
+          {
+            "name": "5-Amino-1MQ",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-Amino-1MQ/cids/JSON",
+            "cids": []
+          },
+          {
+            "name": "5-amino-1-methylquinolinium",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-amino-1-methylquinolinium/cids/JSON",
+            "cids": [
+              950107
+            ]
+          }
+        ],
+        "pubchem_properties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/950107/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON",
+        "pubchem_synonyms": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/950107/synonyms/JSON",
+        "pubchem_cas_section": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/950107/JSON?heading=CAS",
+        "pubchem_cas_lookup": {
+          "name": "685079-15-6",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/685079-15-6/cids/JSON",
+          "cids": [
+            950107
+          ]
+        },
+        "formula_derivation": {
+          "method": "5-aminoquinoline + CH3 on the ring nitrogen (charge +1)",
+          "parts": [
+            {
+              "cid": 11911,
+              "title": "5-Aminoquinoline",
+              "formula": "C9H8N2",
+              "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11911/property/MolecularFormula,MolecularWeight,MonoisotopicMass,Charge,Title,IUPACName/JSON"
+            }
+          ],
+          "result": "C10H11N2+"
+        }
+      }
+    }
+  ]
+}
